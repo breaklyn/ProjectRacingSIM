@@ -1,0 +1,34 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/Vehicles/ProtoCar/Material.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/__ExternalObjects__/VehicleTemplate/Maps/VehicleExampleMap/4/2W/B9A3JESBO5O079P2LAVJQM.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/E/21/3WCTM7OLJ49EF8O7OHWFGB.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/6/FZ/YY10OVIDWLMASR80VVZLGI.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/8/52/BHA86BDB0SPQ1GZ4IX8654.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/E/UQ/O8UHY2DYZ10V5KQVJQ9T86.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/5/F5/O900ELF5F6L94XKGKOFR6R.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/6/A8/GKB7LPOKOCA2E0J7ZHR27Z.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/9/KB/833I5JZZDNXOPZDKW3KSF7.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/6/63/MMEVK7EJBLAP4PVW9RBYD6.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/A/0K/4YQPRYG84XTGJJX4QRZ7S2.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/Vehicles/ProtoCar/Proto_Cube.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/Vehicles/ProtoCar/Material_001.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/Vehicles/ProtoCar/Proto_Vitre.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/Vehicles/ProtoCar/Proto_Cube_002.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/Vehicles/ProtoCar/Proto_Cube_003.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/Vehicles/ProtoCar/Proto_Cube_004.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/Vehicles/ProtoCar/Proto_Cylinder.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/Vehicles/ProtoCar/Proto_Cube_001.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/Vehicles/ProtoCar/Material_002.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/Vehicles/ProtoCar/Material_003.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/Vehicles/ProtoCar/Proto_Cube_005.uasset",
+				"A:/Library/Documents/GitHub/ProjectRacingSIM/Content/Vehicles/ProtoCar/Proto_Cube_006.uasset"
+			]
+		}
+	]
+}
