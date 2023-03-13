@@ -1490,3 +1490,266 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.03.13-16.44.32:354][279]SourceControl:  create mode 100644 Content/Vehicles/ProtoCar/Proto_Cylinder.uasset
 [2023.03.13-16.44.32:354][279]SourceControl:  create mode 100644 Content/Vehicles/ProtoCar/Proto_Vitre.uasset
 [2023.03.13-16.44.32:373][279]SourceControl: Commited [main 9d48fa3] Import de Proto car.
+[2023.03.13-16.50.20:957][385]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.13-16.50.20:963][385]LogContentBundle: [Container: VehicleExampleMap] Generating Streaming for 0 Content Bundles.
+[2023.03.13-16.50.21:034][385]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.13-16.50.21:034][385]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.13-16.50.21:034][385]LogWorldPartition: Display: GetPartitionedActors took 13 us
+[2023.03.13-16.50.21:035][385]LogWorldPartition: Display: GenerateStreaming took 69 ms
+[2023.03.13-16.50.21:035][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.13-16.50.21:036][385]PIE: New page: PIE session: VehicleExampleMap (13 mars 2023 à 18:50:21)
+[2023.03.13-16.50.21:039][385]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.03.13-16.50.21:039][385]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.03.13-16.50.21:039][385]LogPlayLevel: Creating play world package: /Game/VehicleTemplate/Maps/UEDPIE_0_VehicleExampleMap
+[2023.03.13-16.50.21:260][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.221251s)
+[2023.03.13-16.50.21:260][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleTemplate/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.221296s)
+[2023.03.13-16.50.21:261][385]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.13-16.50.21:261][385]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2023.03.13-16.50.21:261][385]LogWorldPartition: ULevel::OnLevelLoaded(VehicleExampleMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.13-16.50.21:261][385]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.13-16.50.21:261][385]LogWorldPartition: UWorldPartition::Initialize(Asset=VehicleExampleMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.03.13-16.50.21:278][385]LogContentBundle: [Container: VehicleExampleMap] Creating new contrainer.
+[2023.03.13-16.50.21:278][385]LogWorldPartition: Display: WorldPartition initialize took 16 ms (total: 761 ms)
+[2023.03.13-16.50.21:278][385]LogPlayLevel: PIE: World Init took: (0.017919s)
+[2023.03.13-16.50.21:286][385]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.03.13-16.50.21:288][385]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.03.13-16.50.21:288][385]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.13-16.50.21:288][385]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.13-16.50.21:288][385]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.13-16.50.21:288][385]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.13-16.50.21:288][385]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.03.13-16.50.21:288][385]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.13-16.50.21:288][385]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.03.13-16.50.21:288][385]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.13-16.50.21:289][385]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.13-16.50.21:289][385]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.13-16.50.21:289][385]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.13-16.50.21:291][385]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.13-16.50.21:313][385]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (HyperX Cloud II Wireless)
+[2023.03.13-16.50.21:313][385]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.13-16.50.21:313][385]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.13-16.50.21:313][385]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.13-16.50.21:314][385]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.03.13-16.50.21:314][385]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.03.13-16.50.21:315][385]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.03.13-16.50.21:315][385]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.03.13-16.50.21:315][385]LogInit: FAudioDevice initialized.
+[2023.03.13-16.50.21:315][385]LogAudio: Display: Audio Device (ID: 2) registered with world 'VehicleExampleMap'.
+[2023.03.13-16.50.21:355][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.13-16.50.21:355][385]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2023.03.13-16.50.21:361][385]LogWorld: Bringing World /Game/VehicleTemplate/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2023.03.13-17.50.21
+[2023.03.13-16.50.21:361][385]LogWorld: Bringing up level for play took: 0.005913
+[2023.03.13-16.50.21:363][385]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2023.03.13-16.50.21:364][385]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.03.13-16.50.21:410][385]LogWorldPartition: New Streaming Source: VehiclePlayerController_C_0 -> Position: X=-3490.000 Y=-9330.000 Z=55.935
+[2023.03.13-16.50.21:410][385]Cmd: r.motionblur.amount 0
+[2023.03.13-16.50.21:411][385]r.MotionBlur.Amount = "0"
+[2023.03.13-16.50.21:436][385]PIE: Server logged in
+[2023.03.13-16.50.21:438][385]PIE: Play in editor total start time 0,475 seconds.
+[2023.03.13-16.50.21:493][385]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: ================================================
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Total job queries 7228, among them cache hits 73 (1.01%)
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Tracking 7137 distinct input hashes that result in 5229 distinct outputs (73.27%)
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: RAM used: 63.41 MB (0.06 GB) of 6553.60 MB (6.40 GB) budget. Usage: 0.97%
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Shaders Compiled: 7137
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Jobs assigned 7147, completed 7137 (99.86%)
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Average time worker was idle: 11.72 s
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Time job spent in pending queue: average 198.56 s, longest 422.94 s
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Job execution time: average 6.00 s, max 50.57 s
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Job life time (pending + execution): average 204.83 s, max 434.43
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 470.53 s
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Jobs were issued in 933 batches (only local compilation was used), average 7.66 jobs/batch
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Average processing rate: 15.17 jobs/sec
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Total thread time: 4362.64 s
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Total thread preprocess time: 212.79 s
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Percentage time preprocessing: 4.88%
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Effective parallelization: 9.27 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.13-16.50.22:606][438]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled    6 times, average 19.08 sec, max 42.19 sec, min 2.60 sec)
+[2023.03.13-16.50.22:607][438]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    2 times, average 7.48 sec, max 7.61 sec, min 7.36 sec)
+[2023.03.13-16.50.22:607][438]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 5.22 sec, max 8.61 sec, min 2.16 sec)
+[2023.03.13-16.50.22:607][438]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 4.88 sec, max 6.55 sec, min 3.47 sec)
+[2023.03.13-16.50.22:607][438]LogShaderCompilers: Display:                                    FRayTracingReflectionsRGS (compiled   48 times, average 3.43 sec, max 3.94 sec, min 3.02 sec)
+[2023.03.13-16.50.22:607][438]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.13-16.50.22:607][438]LogShaderCompilers: Display:                                             FDeferredLightPS - 6.75% of total time (compiled  150 times, average 1.96 sec, max 2.34 sec, min 1.71 sec)
+[2023.03.13-16.50.22:607][438]LogShaderCompilers: Display:                                                FOcclusionRGS - 4.46% of total time (compiled  192 times, average 1.01 sec, max 1.62 sec, min 0.64 sec)
+[2023.03.13-16.50.22:607][438]LogShaderCompilers: Display:                                    FRayTracingReflectionsRGS - 3.77% of total time (compiled   48 times, average 3.43 sec, max 3.94 sec, min 3.02 sec)
+[2023.03.13-16.50.22:607][438]LogShaderCompilers: Display:                 FLumenScreenProbeGatherHardwareRayTracingRGS - 3.35% of total time (compiled   64 times, average 2.29 sec, max 3.74 sec, min 0.93 sec)
+[2023.03.13-16.50.22:607][438]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 2.62% of total time (compiled    6 times, average 19.08 sec, max 42.19 sec, min 2.60 sec)
+[2023.03.13-16.50.22:607][438]LogShaderCompilers: Display: ================================================
+[2023.03.13-16.51.15:248][404]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.13-16.51.15:248][404]LogWorld: BeginTearingDown for /Game/VehicleTemplate/Maps/UEDPIE_0_VehicleExampleMap
+[2023.03.13-16.51.15:251][404]LogSlate: Window 'ProjectRacingSIM Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.03.13-16.51.15:258][404]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.13-16.51.15:259][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.13-16.51.15:259][404]LogContentBundle: [Container: VehicleExampleMap] Deleting container.
+[2023.03.13-16.51.15:262][404]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.13-16.51.15:265][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.13-16.51.15:273][404]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.13-16.51.15:273][404]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.03.13-16.51.15:275][404]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.03.13-16.51.15:283][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.03.13-16.51.15:314][405]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.03.13-16.51.59:968][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube.Proto_Cube
+[2023.03.13-16.51.59:968][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube.Proto_Cube
+[2023.03.13-16.51.59:969][455]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube.Proto_Cube as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_28
+[2023.03.13-16.51.59:969][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_001.Proto_Cube_001
+[2023.03.13-16.51.59:969][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_001.Proto_Cube_001
+[2023.03.13-16.51.59:969][455]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_001.Proto_Cube_001 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_29
+[2023.03.13-16.51.59:970][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_002.Proto_Cube_002
+[2023.03.13-16.51.59:970][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_002.Proto_Cube_002
+[2023.03.13-16.51.59:970][455]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_002.Proto_Cube_002 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_30
+[2023.03.13-16.51.59:970][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_003.Proto_Cube_003
+[2023.03.13-16.51.59:970][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_003.Proto_Cube_003
+[2023.03.13-16.51.59:970][455]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_003.Proto_Cube_003 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_31
+[2023.03.13-16.51.59:970][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_004.Proto_Cube_004
+[2023.03.13-16.51.59:970][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_004.Proto_Cube_004
+[2023.03.13-16.51.59:970][455]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_004.Proto_Cube_004 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_32
+[2023.03.13-16.51.59:971][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_005.Proto_Cube_005
+[2023.03.13-16.51.59:971][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_005.Proto_Cube_005
+[2023.03.13-16.51.59:971][455]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_005.Proto_Cube_005 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_33
+[2023.03.13-16.51.59:971][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_006.Proto_Cube_006
+[2023.03.13-16.51.59:971][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_006.Proto_Cube_006
+[2023.03.13-16.51.59:971][455]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_006.Proto_Cube_006 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_34
+[2023.03.13-16.51.59:972][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cylinder.Proto_Cylinder
+[2023.03.13-16.51.59:972][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cylinder.Proto_Cylinder
+[2023.03.13-16.51.59:972][455]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cylinder.Proto_Cylinder as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_35
+[2023.03.13-16.51.59:972][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Vitre.Proto_Vitre
+[2023.03.13-16.51.59:972][455]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Vitre.Proto_Vitre
+[2023.03.13-16.51.59:972][455]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Vitre.Proto_Vitre as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_36
+[2023.03.13-16.52.02:026][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube.Proto_Cube
+[2023.03.13-16.52.02:026][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube.Proto_Cube
+[2023.03.13-16.52.02:027][686]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube.Proto_Cube as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119017496
+[2023.03.13-16.52.02:047][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_001.Proto_Cube_001
+[2023.03.13-16.52.02:047][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_001.Proto_Cube_001
+[2023.03.13-16.52.02:048][686]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_001.Proto_Cube_001 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119038497
+[2023.03.13-16.52.02:063][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_002.Proto_Cube_002
+[2023.03.13-16.52.02:063][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_002.Proto_Cube_002
+[2023.03.13-16.52.02:063][686]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_002.Proto_Cube_002 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119054498
+[2023.03.13-16.52.02:079][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_003.Proto_Cube_003
+[2023.03.13-16.52.02:079][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_003.Proto_Cube_003
+[2023.03.13-16.52.02:080][686]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_003.Proto_Cube_003 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119070499
+[2023.03.13-16.52.02:098][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_004.Proto_Cube_004
+[2023.03.13-16.52.02:098][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_004.Proto_Cube_004
+[2023.03.13-16.52.02:099][686]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_004.Proto_Cube_004 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119089500
+[2023.03.13-16.52.02:115][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_005.Proto_Cube_005
+[2023.03.13-16.52.02:115][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_005.Proto_Cube_005
+[2023.03.13-16.52.02:116][686]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_005.Proto_Cube_005 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119106501
+[2023.03.13-16.52.02:135][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_006.Proto_Cube_006
+[2023.03.13-16.52.02:135][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_006.Proto_Cube_006
+[2023.03.13-16.52.02:136][686]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_006.Proto_Cube_006 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119126502
+[2023.03.13-16.52.02:152][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cylinder.Proto_Cylinder
+[2023.03.13-16.52.02:152][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cylinder.Proto_Cylinder
+[2023.03.13-16.52.02:153][686]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cylinder.Proto_Cylinder as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119143503
+[2023.03.13-16.52.02:168][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Vitre.Proto_Vitre
+[2023.03.13-16.52.02:168][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Vitre.Proto_Vitre
+[2023.03.13-16.52.02:169][686]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Vitre.Proto_Vitre as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119159504
+[2023.03.13-16.52.06:777][145]Cmd: TRANSACTION UNDO
+[2023.03.13-16.52.06:777][145]LogEditorTransaction: Undo Create Actors
+[2023.03.13-16.52.21:903][766]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.03.13-16.52.25:630][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube.Proto_Cube
+[2023.03.13-16.52.25:631][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube.Proto_Cube
+[2023.03.13-16.52.25:631][138]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube.Proto_Cube as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_37
+[2023.03.13-16.52.25:631][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_001.Proto_Cube_001
+[2023.03.13-16.52.25:631][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_001.Proto_Cube_001
+[2023.03.13-16.52.25:631][138]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_001.Proto_Cube_001 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_38
+[2023.03.13-16.52.25:632][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_002.Proto_Cube_002
+[2023.03.13-16.52.25:632][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_002.Proto_Cube_002
+[2023.03.13-16.52.25:632][138]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_002.Proto_Cube_002 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_39
+[2023.03.13-16.52.25:632][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_003.Proto_Cube_003
+[2023.03.13-16.52.25:632][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_003.Proto_Cube_003
+[2023.03.13-16.52.25:633][138]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_003.Proto_Cube_003 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_40
+[2023.03.13-16.52.25:633][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_004.Proto_Cube_004
+[2023.03.13-16.52.25:633][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_004.Proto_Cube_004
+[2023.03.13-16.52.25:633][138]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_004.Proto_Cube_004 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_41
+[2023.03.13-16.52.25:633][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_005.Proto_Cube_005
+[2023.03.13-16.52.25:633][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_005.Proto_Cube_005
+[2023.03.13-16.52.25:633][138]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_005.Proto_Cube_005 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_42
+[2023.03.13-16.52.25:634][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_006.Proto_Cube_006
+[2023.03.13-16.52.25:634][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_006.Proto_Cube_006
+[2023.03.13-16.52.25:634][138]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_006.Proto_Cube_006 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_43
+[2023.03.13-16.52.25:634][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cylinder.Proto_Cylinder
+[2023.03.13-16.52.25:634][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cylinder.Proto_Cylinder
+[2023.03.13-16.52.25:634][138]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cylinder.Proto_Cylinder as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_44
+[2023.03.13-16.52.25:635][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Vitre.Proto_Vitre
+[2023.03.13-16.52.25:635][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Vitre.Proto_Vitre
+[2023.03.13-16.52.25:635][138]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Vitre.Proto_Vitre as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_45
+[2023.03.13-16.52.26:314][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube.Proto_Cube
+[2023.03.13-16.52.26:314][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube.Proto_Cube
+[2023.03.13-16.52.26:314][204]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube.Proto_Cube as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_46
+[2023.03.13-16.52.26:315][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_001.Proto_Cube_001
+[2023.03.13-16.52.26:315][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_001.Proto_Cube_001
+[2023.03.13-16.52.26:315][204]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_001.Proto_Cube_001 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_47
+[2023.03.13-16.52.26:316][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_002.Proto_Cube_002
+[2023.03.13-16.52.26:316][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_002.Proto_Cube_002
+[2023.03.13-16.52.26:316][204]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_002.Proto_Cube_002 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_48
+[2023.03.13-16.52.26:317][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_003.Proto_Cube_003
+[2023.03.13-16.52.26:317][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_003.Proto_Cube_003
+[2023.03.13-16.52.26:317][204]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_003.Proto_Cube_003 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_49
+[2023.03.13-16.52.26:317][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_004.Proto_Cube_004
+[2023.03.13-16.52.26:317][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_004.Proto_Cube_004
+[2023.03.13-16.52.26:317][204]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_004.Proto_Cube_004 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_50
+[2023.03.13-16.52.26:318][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_005.Proto_Cube_005
+[2023.03.13-16.52.26:318][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_005.Proto_Cube_005
+[2023.03.13-16.52.26:318][204]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_005.Proto_Cube_005 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_51
+[2023.03.13-16.52.26:318][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_006.Proto_Cube_006
+[2023.03.13-16.52.26:318][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_006.Proto_Cube_006
+[2023.03.13-16.52.26:318][204]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_006.Proto_Cube_006 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_52
+[2023.03.13-16.52.26:319][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cylinder.Proto_Cylinder
+[2023.03.13-16.52.26:319][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cylinder.Proto_Cylinder
+[2023.03.13-16.52.26:319][204]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cylinder.Proto_Cylinder as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_53
+[2023.03.13-16.52.26:319][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Vitre.Proto_Vitre
+[2023.03.13-16.52.26:319][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Vitre.Proto_Vitre
+[2023.03.13-16.52.26:319][204]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Vitre.Proto_Vitre as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_54
+[2023.03.13-16.52.27:796][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube.Proto_Cube
+[2023.03.13-16.52.27:797][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube.Proto_Cube
+[2023.03.13-16.52.27:798][358]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube.Proto_Cube as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1144787505
+[2023.03.13-16.52.27:813][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_001.Proto_Cube_001
+[2023.03.13-16.52.27:813][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_001.Proto_Cube_001
+[2023.03.13-16.52.27:814][358]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_001.Proto_Cube_001 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1144804506
+[2023.03.13-16.52.27:828][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_002.Proto_Cube_002
+[2023.03.13-16.52.27:828][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_002.Proto_Cube_002
+[2023.03.13-16.52.27:829][358]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_002.Proto_Cube_002 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1144819507
+[2023.03.13-16.52.27:844][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_003.Proto_Cube_003
+[2023.03.13-16.52.27:844][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_003.Proto_Cube_003
+[2023.03.13-16.52.27:844][358]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_003.Proto_Cube_003 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1144835508
+[2023.03.13-16.52.27:859][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_004.Proto_Cube_004
+[2023.03.13-16.52.27:860][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_004.Proto_Cube_004
+[2023.03.13-16.52.27:860][358]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_004.Proto_Cube_004 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1144850509
+[2023.03.13-16.52.27:876][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_005.Proto_Cube_005
+[2023.03.13-16.52.27:876][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_005.Proto_Cube_005
+[2023.03.13-16.52.27:876][358]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_005.Proto_Cube_005 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1144867510
+[2023.03.13-16.52.27:891][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_006.Proto_Cube_006
+[2023.03.13-16.52.27:891][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_006.Proto_Cube_006
+[2023.03.13-16.52.27:892][358]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cube_006.Proto_Cube_006 as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1144882511
+[2023.03.13-16.52.27:907][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cylinder.Proto_Cylinder
+[2023.03.13-16.52.27:907][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Cylinder.Proto_Cylinder
+[2023.03.13-16.52.27:908][358]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Cylinder.Proto_Cylinder as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1144898512
+[2023.03.13-16.52.27:923][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Vitre.Proto_Vitre
+[2023.03.13-16.52.27:923][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Vehicles/ProtoCar/Proto_Vitre.Proto_Vitre
+[2023.03.13-16.52.27:924][358]LogActorFactory: Actor Factory spawned StaticMesh /Game/Vehicles/ProtoCar/Proto_Vitre.Proto_Vitre as actor: StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1144914513
+[2023.03.13-16.52.32:169][764]Cmd: DELETE
+[2023.03.13-16.52.32:169][764]Cmd: ACTOR DELETE
+[2023.03.13-16.52.32:171][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.13-16.52.32:172][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.13-16.52.32:172][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.13-16.52.32:173][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.13-16.52.32:173][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.13-16.52.32:174][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.13-16.52.32:174][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.13-16.52.32:175][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.13-16.52.32:175][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.13-16.52.32:631][764]LogWorldPartition: Actor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119159504 is unreachable without properly detaching object /Game/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/C/NN/ZISLTC8LK1QD70CJA8E6KR.PackageMetaData in its package
+[2023.03.13-16.52.32:631][764]LogWorldPartition: Actor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119143503 is unreachable without properly detaching object /Game/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/9/K8/VSCMA3CBR3636L91BUWIKH.PackageMetaData in its package
+[2023.03.13-16.52.32:631][764]LogWorldPartition: Actor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119126502 is unreachable without properly detaching object /Game/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/E/VN/GH1POJ79GY0HBD8M2FP1LE.PackageMetaData in its package
+[2023.03.13-16.52.32:631][764]LogWorldPartition: Actor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119106501 is unreachable without properly detaching object /Game/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/1/H7/VPQVKR0FDYISBK05XQOSRY.PackageMetaData in its package
+[2023.03.13-16.52.32:631][764]LogWorldPartition: Actor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119089500 is unreachable without properly detaching object /Game/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/3/SD/Z2PIO5MIO1P538BDDR2EJM.PackageMetaData in its package
+[2023.03.13-16.52.32:631][764]LogWorldPartition: Actor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119070499 is unreachable without properly detaching object /Game/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/E/YH/0YEGED6FKCC8ZRK314OPHK.PackageMetaData in its package
+[2023.03.13-16.52.32:631][764]LogWorldPartition: Actor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119054498 is unreachable without properly detaching object /Game/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/9/RJ/IFYL93L418PEW2GO6DJ3EK.PackageMetaData in its package
+[2023.03.13-16.52.32:631][764]LogWorldPartition: Actor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119038497 is unreachable without properly detaching object /Game/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/A/VQ/P1MGFZFHMQWPMDM7BOBC1C.PackageMetaData in its package
+[2023.03.13-16.52.32:631][764]LogWorldPartition: Actor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_UAID_F02F74D0196C0C6F01_1119017496 is unreachable without properly detaching object /Game/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/A/QZ/1UXGH2SL90VHRH6RREGTCN.PackageMetaData in its package
+[2023.03.13-16.52.32:632][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.03.13-16.52.32:634][764]LogEditorActor: Deleted 9 Actors (0.464 secs)
+[2023.03.13-16.52.32:647][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
